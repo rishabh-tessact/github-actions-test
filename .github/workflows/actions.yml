@@ -5,7 +5,10 @@ on:
   push:
     branches:
       - master
+      - staging
       - 'feature/*' # matches feature/a, feat/B etc.
+    # paths:
+    # - '**.js'
   pull:
     branches:
       - master
