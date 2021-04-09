@@ -1,4 +1,6 @@
 name: Actions Workflow
+schedule:
+  - cron: "1 * * * *"
 on:
   push:
   pull:
