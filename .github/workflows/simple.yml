@@ -12,7 +12,7 @@ jobs:
           npm -v
       - name: python Command
         run: |
-          import python
+          import platform
           print
           (platform.processor())
         shell: python
